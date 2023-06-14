@@ -20,19 +20,19 @@ function initTheme() {
     setTheme(themes.DARK);
   } else {
     // Default theme
-    setTheme(themes.LIGHT);
+    setTheme(themes.DARK);
   }
 
   // Watch for system theme changes
   window.matchMedia(QUERY_KEY).addEventListener("change", (e) => {
-    const newTheme = e.matches ? themes.DARK : themes.LIGHT;
+    const newTheme = e.matches ? themes.DARK : themes.DARK;
     setTheme(newTheme);
   });
 }
 
 function toggleTheme() {
   const theme = getTheme();
-  const newTheme = theme === themes.DARK ? themes.LIGHT : themes.DARK;
+  const newTheme = theme === themes.DARK ? themes.DARK : themes.DARK;
   setTheme(newTheme);
   localStorage.setItem(STORAGE_KEY, newTheme);
 }
