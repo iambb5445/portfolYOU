@@ -86,4 +86,9 @@ $dark-900: #17191a;
   .workxp-body .workxp-item:after{
     background-color: $dark-900;
   }
+
+  .honor-title {
+    display: inline-block;
+    width: 150px; /* Adjust this value to your desired tab width */
+  }
 }
