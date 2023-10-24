@@ -87,8 +87,13 @@ $dark-900: #17191a;
     background-color: $dark-900;
   }
 
-  .honor-title {
-    display: block;
-    margin-left: 30px;
+  .honor-year {
+    display: inline-block;
+    width: 60px; /* Adjust this value as needed for your desired tab width */
+  }
+
+  .honor-description {
+    display: inline-block;
+    margin-left: 20px; /* Adjust this value as needed for your desired indentation */
   }
 }
