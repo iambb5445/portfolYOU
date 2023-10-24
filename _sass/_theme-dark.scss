@@ -87,17 +87,11 @@ $dark-900: #17191a;
     background-color: $dark-900;
   }
 
-  .honor-item {
-    white-space: nowrap; /* Prevent line breaks */
-    display: inline; /* Keep year and description on the same line */
+  .honor-container {
+    display: flex;
   }
-
+  
   .honor-year {
-    display: inline-block; /* Make the year a block element */
-    margin-right: 1em; /* Add some space between year and description */
-  }
-
-  .honor-description {
-    display: inline; /* Keep description on the same line */
+    margin-right: 30px;
   }
 }
